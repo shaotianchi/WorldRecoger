@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		502EF55717C35C5A00E44855 /* dian.png in Resources */ = {isa = PBXBuildFile; fileRef = 502EF55617C35C5A00E44855 /* dian.png */; };
+		50A5111817C1C1E200823E11 /* Image.mm in Sources */ = {isa = PBXBuildFile; fileRef = 50A5111717C1C1E200823E11 /* Image.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		50A6869817C1B28E00848307 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50A6869717C1B28E00848307 /* UIKit.framework */; };
+		50A6869A17C1B28E00848307 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50A6869917C1B28E00848307 /* Foundation.framework */; };
+		50A6869C17C1B28E00848307 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50A6869B17C1B28E00848307 /* CoreGraphics.framework */; };
+		50A686A217C1B28E00848307 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50A686A017C1B28E00848307 /* InfoPlist.strings */; };
+		50A686A417C1B28E00848307 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A686A317C1B28E00848307 /* main.m */; };
+		50A686A817C1B28E00848307 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 50A686A717C1B28E00848307 /* AppDelegate.mm */; };
+		50A686AA17C1B28E00848307 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 50A686A917C1B28E00848307 /* Default.png */; };
+		50A686AC17C1B28E00848307 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50A686AB17C1B28E00848307 /* Default@2x.png */; };
+		50A686AE17C1B28E00848307 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50A686AD17C1B28E00848307 /* Default-568h@2x.png */; };
+		50A686B117C1B28E00848307 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50A686AF17C1B28E00848307 /* MainStoryboard.storyboard */; };
+		50A686B417C1B28E00848307 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 50A686B317C1B28E00848307 /* ViewController.mm */; };
+		50A686BB17C1B30F00848307 /* order.png in Resources */ = {isa = PBXBuildFile; fileRef = 50A686BA17C1B30F00848307 /* order.png */; };
+		50A686BE17C1B4D600848307 /* UIImage+RecogerCategory.mm in Sources */ = {isa = PBXBuildFile; fileRef = 50A686BD17C1B4D600848307 /* UIImage+RecogerCategory.mm */; };
+		50BF396417C30F5300F08EAC /* fei.png in Resources */ = {isa = PBXBuildFile; fileRef = 50BF396317C30F5300F08EAC /* fei.png */; };
+		50F879D917C1F951006254B0 /* ResultView.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F879D817C1F951006254B0 /* ResultView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		502EF55617C35C5A00E44855 /* dian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dian.png; sourceTree = "<group>"; };
+		50A5111717C1C1E200823E11 /* Image.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Image.mm; sourceTree = "<group>"; };
+		50A5111917C1C40800823E11 /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
+		50A6869417C1B28E00848307 /* WorldRecoger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldRecoger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50A6869717C1B28E00848307 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		50A6869917C1B28E00848307 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		50A6869B17C1B28E00848307 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		50A6869F17C1B28E00848307 /* WorldRecoger-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WorldRecoger-Info.plist"; sourceTree = "<group>"; };
+		50A686A117C1B28E00848307 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		50A686A317C1B28E00848307 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		50A686A517C1B28E00848307 /* WorldRecoger-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WorldRecoger-Prefix.pch"; sourceTree = "<group>"; };
+		50A686A617C1B28E00848307 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		50A686A717C1B28E00848307 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		50A686A917C1B28E00848307 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		50A686AB17C1B28E00848307 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		50A686AD17C1B28E00848307 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		50A686B017C1B28E00848307 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		50A686B217C1B28E00848307 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		50A686B317C1B28E00848307 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		50A686BA17C1B30F00848307 /* order.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = order.png; sourceTree = "<group>"; };
+		50A686BC17C1B4D600848307 /* UIImage+RecogerCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RecogerCategory.h"; sourceTree = "<group>"; };
+		50A686BD17C1B4D600848307 /* UIImage+RecogerCategory.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "UIImage+RecogerCategory.mm"; sourceTree = "<group>"; };
+		50BF396317C30F5300F08EAC /* fei.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fei.png; sourceTree = "<group>"; };
+		50F879D717C1F951006254B0 /* ResultView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultView.h; sourceTree = "<group>"; };
+		50F879D817C1F951006254B0 /* ResultView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50A6869117C1B28E00848307 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50A6869817C1B28E00848307 /* UIKit.framework in Frameworks */,
+				50A6869A17C1B28E00848307 /* Foundation.framework in Frameworks */,
+				50A6869C17C1B28E00848307 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50A6868B17C1B28E00848307 = {
+			isa = PBXGroup;
+			children = (
+				50A6869D17C1B28E00848307 /* WorldRecoger */,
+				50A6869617C1B28E00848307 /* Frameworks */,
+				50A6869517C1B28E00848307 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50A6869517C1B28E00848307 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50A6869417C1B28E00848307 /* WorldRecoger.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50A6869617C1B28E00848307 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50A6869717C1B28E00848307 /* UIKit.framework */,
+				50A6869917C1B28E00848307 /* Foundation.framework */,
+				50A6869B17C1B28E00848307 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		50A6869D17C1B28E00848307 /* WorldRecoger */ = {
+			isa = PBXGroup;
+			children = (
+				502EF55617C35C5A00E44855 /* dian.png */,
+				50BF396317C30F5300F08EAC /* fei.png */,
+				50A5111917C1C40800823E11 /* Image.h */,
+				50A5111717C1C1E200823E11 /* Image.mm */,
+				50A686BA17C1B30F00848307 /* order.png */,
+				50A686A617C1B28E00848307 /* AppDelegate.h */,
+				50A686A717C1B28E00848307 /* AppDelegate.mm */,
+				50A686AF17C1B28E00848307 /* MainStoryboard.storyboard */,
+				50A686B217C1B28E00848307 /* ViewController.h */,
+				50A686B317C1B28E00848307 /* ViewController.mm */,
+				50A6869E17C1B28E00848307 /* Supporting Files */,
+				50A686BC17C1B4D600848307 /* UIImage+RecogerCategory.h */,
+				50A686BD17C1B4D600848307 /* UIImage+RecogerCategory.mm */,
+				50F879D717C1F951006254B0 /* ResultView.h */,
+				50F879D817C1F951006254B0 /* ResultView.m */,
+			);
+			path = WorldRecoger;
+			sourceTree = "<group>";
+		};
+		50A6869E17C1B28E00848307 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50A6869F17C1B28E00848307 /* WorldRecoger-Info.plist */,
+				50A686A017C1B28E00848307 /* InfoPlist.strings */,
+				50A686A317C1B28E00848307 /* main.m */,
+				50A686A517C1B28E00848307 /* WorldRecoger-Prefix.pch */,
+				50A686A917C1B28E00848307 /* Default.png */,
+				50A686AB17C1B28E00848307 /* Default@2x.png */,
+				50A686AD17C1B28E00848307 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50A6869317C1B28E00848307 /* WorldRecoger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50A686B717C1B28E00848307 /* Build configuration list for PBXNativeTarget "WorldRecoger" */;
+			buildPhases = (
+				50A6869017C1B28E00848307 /* Sources */,
+				50A6869117C1B28E00848307 /* Frameworks */,
+				50A6869217C1B28E00848307 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WorldRecoger;
+			productName = WorldRecoger;
+			productReference = 50A6869417C1B28E00848307 /* WorldRecoger.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50A6868C17C1B28E00848307 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = noez;
+			};
+			buildConfigurationList = 50A6868F17C1B28E00848307 /* Build configuration list for PBXProject "WorldRecoger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 50A6868B17C1B28E00848307;
+			productRefGroup = 50A6869517C1B28E00848307 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50A6869317C1B28E00848307 /* WorldRecoger */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50A6869217C1B28E00848307 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50A686A217C1B28E00848307 /* InfoPlist.strings in Resources */,
+				50A686AA17C1B28E00848307 /* Default.png in Resources */,
+				50A686AC17C1B28E00848307 /* Default@2x.png in Resources */,
+				50A686AE17C1B28E00848307 /* Default-568h@2x.png in Resources */,
+				50A686B117C1B28E00848307 /* MainStoryboard.storyboard in Resources */,
+				50A686BB17C1B30F00848307 /* order.png in Resources */,
+				50BF396417C30F5300F08EAC /* fei.png in Resources */,
+				502EF55717C35C5A00E44855 /* dian.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50A6869017C1B28E00848307 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50A686A417C1B28E00848307 /* main.m in Sources */,
+				50A686A817C1B28E00848307 /* AppDelegate.mm in Sources */,
+				50A686B417C1B28E00848307 /* ViewController.mm in Sources */,
+				50A686BE17C1B4D600848307 /* UIImage+RecogerCategory.mm in Sources */,
+				50A5111817C1C1E200823E11 /* Image.mm in Sources */,
+				50F879D917C1F951006254B0 /* ResultView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		50A686A017C1B28E00848307 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50A686A117C1B28E00848307 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		50A686AF17C1B28E00848307 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50A686B017C1B28E00848307 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50A686B517C1B28E00848307 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		50A686B617C1B28E00848307 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50A686B817C1B28E00848307 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WorldRecoger/WorldRecoger-Prefix.pch";
+				INFOPLIST_FILE = "WorldRecoger/WorldRecoger-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		50A686B917C1B28E00848307 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WorldRecoger/WorldRecoger-Prefix.pch";
+				INFOPLIST_FILE = "WorldRecoger/WorldRecoger-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50A6868F17C1B28E00848307 /* Build configuration list for PBXProject "WorldRecoger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50A686B517C1B28E00848307 /* Debug */,
+				50A686B617C1B28E00848307 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50A686B717C1B28E00848307 /* Build configuration list for PBXNativeTarget "WorldRecoger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50A686B817C1B28E00848307 /* Debug */,
+				50A686B917C1B28E00848307 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50A6868C17C1B28E00848307 /* Project object */;
+}
